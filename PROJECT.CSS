@@ -1,0 +1,248 @@
+.header{
+    background-image:url("background.avif");
+   background-size:cover;
+}
+.link{
+    display:flex;
+    flex-direction:row-reverse;
+}Z
+#investor{
+    padding:10px;
+    color:white;
+}
+#investor:hover{
+    color:rgb(154, 62, 62);
+    transition:1s;
+}
+#Add{
+    padding:10px;
+    color:white;
+}
+#Add:hover{
+    color:rgb(154, 62, 62);
+    transition:1s;
+}
+#login{
+    padding:10px;
+    color:white;
+}
+#login:hover{
+    color:rgb(154, 62, 62);
+    transition:1s;
+}
+#signup{
+    padding:10px;
+    color:white;
+}
+#signup:hover{
+    color:rgb(154, 62, 62);
+    transition:1s;
+}
+#get{
+    padding:10px;
+    margin-right:900px;
+    color:white;
+}
+#get:hover{
+    color:rgb(154, 62, 62);
+    transition:1s;
+}
+#discover{
+    font-family:Calisto MT;
+}
+#search{
+    border-radius:5px;
+    text-align:center;
+
+}
+#option{
+    border-radius:5px;
+    text-align:center;
+}
+img{
+    height:150px;
+    width:250px;
+    background-color:white;
+    border-radius:10px;
+}
+#online{
+    display:inline-block;
+    border-style:groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family:Impact, 'Arial Narrow Bold',;
+    align-items:center;
+    margin-left:100px;
+    margin-right:50px;
+
+}
+img:hover{
+    background-color: black;
+    border-radius: 20px;
+    transition:1s
+}
+#online:hover{
+    border-radius: 20px;
+    transition:1s;
+}
+#dining{
+    display:inline-block;
+    border-style:groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family:Impact, 'Arial Narrow Bold',;
+    margin:100px;
+    margin-right:50px;
+
+}
+#dining:hover{
+    border-radius: 20px;
+    transition:1s;
+}
+#concert{
+    display:inline-block;
+    border-style:groove;
+    border-width: 2px;
+    border-radius: 10px;
+    font-family:Impact, 'Arial Narrow Bold',;
+    margin-left:100px;
+}
+#concert:hover{
+    border-radius: 20px;
+    transition:1s;
+}
+.collection{
+    text-align:center;
+}
+#insta{
+    display:inline-block;
+    margin-left:40px;
+    margin-right:40px;
+
+}
+#haunting{
+    display:inline-block;
+    margin-right:20px;
+    margin-left:20px
+}
+#diwali{
+    display:inline-block;
+    margin-right:40px;
+    padding:30px;
+}
+#top{
+    display:inline-block;
+    margin-left:60px;
+    margin-right:60px;
+
+
+}
+#Connaught{
+    text-decoration:none;
+}
+#veg{
+    text-align:center;
+}
+#non{
+    text-align:center;
+}
+#diet{
+    text-align:center;
+}
+.option{
+    text-align:center;
+    display:inline-block;
+}
+button{
+    background-color: bisque;
+    align-items:center;
+}
+#variety{
+    margin-left:620px;
+    padding:50px;
+}
+.exam{
+    padding:50px;
+}
+#pizza{
+    display:inline-block;
+    margin-left:250px;
+    margin-right:50px;
+}
+#nveg{
+    display:inline-block;
+    margin-right:50px;
+}
+#salad{
+    display:inline-block;
+}
+#image{
+    align-items:center;
+}
+.font{
+    display: flex;
+    /* position: relative; */
+}
+.page{
+    padding-left: 350px;
+}
+.app{
+    position: absolute;
+    padding-left: 600px;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e94e77;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
