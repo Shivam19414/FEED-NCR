@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZwiGato - Login</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    
+    <div class="login-container">
+        <h1>Welcome to ZwiGato</h1>
+        <form class="login-form" id="loginForm" action="/login" method="POST" onsubmit="return validateForm()">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" onkeyup="validateEmail()" required>
+            <small id="emailError" class="error-message"></small>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" onkeyup="validatePassword()" required>
+            <small id="passwordError" class="error-message"></small>
+
+            <button type="submit">Log In</button>
+            <p>Don’t have an account? <a href="signup.html" target="_blank">Sign Up</a></p>
+        </form>
+    </div>
+
+    <script>
+      function validateEmail() {
+          const email = document.getElementById("email");
+          const emailError = document.getElementById("emailError");
+          const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+
+          if (!emailPattern.test(email.value)) {
+              emailError.textContent = "Please enter a valid email address.";
+              email.classList.add("invalid-input");
+              return false;
+          } else {
+              emailError.textContent = ""; // Clear error if valid
+              email.classList.remove("invalid-input");
+              return true;
+          }
+      }
+
+      function validatePassword() {
+          const password = document.getElementById("password");
+          const passwordError = document.getElementById("passwordError");
+          const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$/;
+
+          if (!passwordPattern.test(password.value)) {
+              passwordError.textContent = "Password must be at least 8 characters, with a number, uppercase, and lowercase letter.";
+              password.classList.add("invalid-input");
+              return false;
+          } else {
+              passwordError.textContent = ""; // Clear error if valid
+              password.classList.remove("invalid-input");
+              return true;
+          }
+      }
+
+      function validateForm() {
+          const isEmailValid = validateEmail();
+          const isPasswordValid = validatePassword();
+          return isEmailValid && isPasswordValid;
+      }
+    </script>
+</body>
+</html>
