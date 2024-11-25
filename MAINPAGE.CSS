@@ -1,11 +1,12 @@
 .header{
-    background-image:url("background.avif");
+    background-color: #777;
    background-size:cover;
+   color: black ;
 }
 .link{
     display:flex;
     flex-direction:row-reverse;
-}Z
+}
 #investor{
     padding:10px;
     color:white;
@@ -61,7 +62,7 @@
 }
 img{
     height:150px;
-    width:250px;
+    width:270px;
     background-color:white;
     border-radius:10px;
 }
@@ -154,11 +155,12 @@ img:hover{
     display:inline-block;
 }
 button{
-    background-color: bisque;
+    background-color: #777;
     align-items:center;
+    color: white;
 }
 #variety{
-    margin-left:620px;
+    margin-left:550px;
     padding:50px;
 }
 .exam{
@@ -202,7 +204,7 @@ body {
 }
 
 .footer {
-    background-color: #f8f8f8;
+    background-color: #777;
     padding: 20px;
     text-align: center;
 }
@@ -219,7 +221,7 @@ body {
 .footer-links a {
     margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -244,5 +246,5 @@ body {
 .footer-bottom {
     margin-top: 20px;
     font-size: 14px;
-    color: #777;
+    color: white;
 }
